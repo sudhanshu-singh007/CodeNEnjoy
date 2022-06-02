@@ -37,6 +37,8 @@ class SingletonEagar {
 	}
 
 //	type two(synchroinzed way)
+//	The easier way to create a thread-safe singleton class is to make the global access method synchronized, 
+// this method at a time. General implementation of this approach is like the below class.
 	
 	class SingletonSynchronizedMethod {
 	  private static SingletonSynchronizedMethod instance; 
