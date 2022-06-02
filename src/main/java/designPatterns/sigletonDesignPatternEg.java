@@ -5,6 +5,7 @@ package designPatterns;
 //public method of returning instance
 //instance type - private static
 
+//type one (eager approach of declaring)
 class SingletonEagar {
 	  private static SingletonEagar instance = new SingletonEagar(); 
 	  
@@ -29,6 +30,8 @@ class SingletonEagar {
 	  }
 	}
 
+//	type two(synchroinzed way)
+	
 	class SingletonSynchronizedMethod {
 	  private static SingletonSynchronizedMethod instance; 
 	  
