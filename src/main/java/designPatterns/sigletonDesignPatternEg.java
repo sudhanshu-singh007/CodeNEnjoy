@@ -6,6 +6,12 @@ package designPatterns;
 //instance type - private static
 
 //type one (eager approach of declaring)
+/*
+ *In eager initialization, the instance of Singleton Class is created at the time of class loading, 
+ *this is the easiest method to create a singleton class but it has a drawback that instance is 
+ *created even though client application might not be using it. 
+ *
+ */
 class SingletonEagar {
 	  private static SingletonEagar instance = new SingletonEagar(); 
 	  
