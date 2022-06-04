@@ -37,4 +37,12 @@ class B extends A
     }
 }
 
-
+//main method
+class TestMethods{
+    public static void main(String[] args) {
+        B b = new B();
+        b.setPaintColor("Blue");
+        b.paint(b.getPaintColor());
+        b.paint();
+    }
+}
