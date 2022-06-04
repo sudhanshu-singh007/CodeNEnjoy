@@ -1,5 +1,5 @@
 package JavaExercises;
-
+//super class
 abstract class OOPS
 {
     abstract void paint();
@@ -17,7 +17,7 @@ class A extends OOPS{
         System.out.println("Overloaded paint in class JavaExercises.A");
     }
 }
-
+//child class
 class B extends A
 {
     B(){
