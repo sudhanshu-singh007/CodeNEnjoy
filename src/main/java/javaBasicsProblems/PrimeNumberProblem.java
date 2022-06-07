@@ -18,6 +18,7 @@ public class PrimeNumberProblem {
 			}
 			if (flag == 0) {
 				System.out.println(n + " is prime number");
+				System.out.println(n + " testing the commit to test branch");
 			}
 		} // end of else
 	}
