@@ -47,3 +47,4 @@ public class ArmstsrongNumberExample {
 				System.out.print(i + ", ");
 	}
 }
+
