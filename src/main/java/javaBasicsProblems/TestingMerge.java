@@ -6,6 +6,9 @@ public class TestingMerge {
 		// TODO Auto-generated method stub
 		System.out.println("testing merge");
 		System.out.println("Merge successfull");
+		
+		System.out.println("testing merge");
+		System.out.println("Merge successfull");
 
 	}
 
