@@ -6,6 +6,9 @@ public class TestingCherrypick1 {
 		// TODO Auto-generated method stub
 		System.out.println("for test");
 		System.out.println("for test");
+		
+		System.out.println("for test");
+		System.out.println("for test");
 	}
 
 }
