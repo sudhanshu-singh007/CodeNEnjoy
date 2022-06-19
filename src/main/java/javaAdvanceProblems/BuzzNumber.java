@@ -1,18 +1,12 @@
 package javaAdvanceProblems;
 
 
-//import required classes and packages  
-import java.util.*;
 import java.io.*;
 import java.util.Scanner;
 
-//create FindAllBuzzNumber class to get all the Buzz number in a given range  
 class FindAllBuzzNumbers {
-	// main() method start
 	public static void main(String args[]) {
 		int range;
-
-		// create scanner class object
 		Scanner sc = new Scanner(System.in);
 
 		// show custom message
