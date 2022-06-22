@@ -10,7 +10,6 @@ public class ReverseNumber {
 		System.out.println("The reverse of the given number is: " + reverse_number);
 	}
 
-//method to reverse a number  
 	public static int reverseNumber(int number) {
 		boolean isNoNegative = number < 0 ? true : false;
 		if (isNoNegative) {
@@ -23,7 +22,6 @@ public class ReverseNumber {
 			reverse = reverse * 10 + lastDigit;
 			number = number / 10; // removes the last digit of the number
 		}
-//makes the number negative   
 		return isNoNegative == true ? reverse * -1 : reverse;
 	}
 }
