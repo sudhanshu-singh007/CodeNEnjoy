@@ -12,11 +12,9 @@ public class ComparingObjectHashCode {
 	}  
 	
 	public static void main(String[] args) {
-//creating two instances of the Employee class 
 
 		ComparingObjectHashCode emp1 = new ComparingObjectHashCode(918, "Maria");
 		ComparingObjectHashCode emp2 = new ComparingObjectHashCode(918, "Maria");
-//invoking hashCode() method  
 		int a = emp1.hashCode();
 		int b = emp2.hashCode();
 		System.out.println("hashcode of emp1 = " + a);
