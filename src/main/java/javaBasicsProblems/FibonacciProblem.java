@@ -15,7 +15,6 @@ class FibonacciExample1 {
 
 	}
 }
-
 //using recursion
 class FibonacciExample2{  
 	 static int n1=0,n2=1,n3=0;    
