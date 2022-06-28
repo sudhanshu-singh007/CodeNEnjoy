@@ -25,6 +25,6 @@ class FindAllDuckNumber
             number = number / 10;  
         }  
   
-        return false;   //return false if the number is not Duck  
+        return false;
    }  
 } 
