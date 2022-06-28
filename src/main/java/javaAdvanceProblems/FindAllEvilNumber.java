@@ -26,7 +26,7 @@ public class FindAllEvilNumber {
             binaryNumber = binaryNumber / 10;  
         }  
         if(count % 2 == 0)  
-            return true;    //return true when the value of count is even  
+            return true;   
         return false;  
     }  
     private static long convertToBinary(int number) {  
@@ -40,6 +40,6 @@ public class FindAllEvilNumber {
             j = j * 10;  
         }  
           
-        return binaryNumber;    //return the binary equivalent number of the decimal number  
+        return binaryNumber;   
     }  
 }  
