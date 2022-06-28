@@ -17,11 +17,9 @@ public class ATMExample {
 				System.out.print("Enter money to be withdrawn:");
 				withdraw = sc.nextInt();
 				if (balance >= withdraw) {
-					// remove the withdrawl amount from the total balance
 					balance = balance - withdraw;
 					System.out.println("Please collect your money");
 				} else {
-					// show custom error message
 					System.out.println("Insufficient Balance");
 				}
 				System.out.println("");
