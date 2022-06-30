@@ -13,14 +13,14 @@ public class ReverseNumber {
 	public static int reverseNumber(int number) {
 		boolean isNoNegative = number < 0 ? true : false;
 		if (isNoNegative) {
-			number = number * -1; // makes the number positive if the given number is negative
+			number = number * -1;
 		}
 		int reverse = 0;
 		int lastDigit = 0;
 		while (number >= 1) {
-			lastDigit = number % 10; // gives the last digit of the number
+			lastDigit = number % 10;
 			reverse = reverse * 10 + lastDigit;
-			number = number / 10; // removes the last digit of the number
+			number = number / 10;
 		}
 		return isNoNegative == true ? reverse * -1 : reverse;
 	}
