@@ -12,7 +12,6 @@ public class NeonNumberExample2 {
 		}
 		return (sumOfdigits == num);
 	}
-//driver Code   
 	public static void main(String args[]) {
 		System.out.print("Neon Numbers between the given range are: ");
 		for (int i = 0; i <= 100000; i++)
