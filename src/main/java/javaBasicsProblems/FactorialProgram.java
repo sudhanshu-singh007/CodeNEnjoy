@@ -10,8 +10,6 @@ class FactorialExample {
 		System.out.println("Factorial of " + number + " is: " + fact);
 	}
 }
-
-//using recursion
 class FactorialExample2 {
 	static int factorial(int n) {
 		if (n == 0)
