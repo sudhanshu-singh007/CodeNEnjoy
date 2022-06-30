@@ -6,9 +6,7 @@ public class StrontioNumberExample2 {
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a four-digit number:");
-//reading an integer from the user  
 		int num = sc.nextInt();
-//checks if the given number is a four-digit number or not  
 		if ((num > 999) && (num < 10000)) {
 			int n = num;
 //multiplies the given number by 2  
